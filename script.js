@@ -5,6 +5,8 @@ const allTabsBody = document.querySelectorAll('.tab-body-single');
 const allTabsHead = document.querySelectorAll('.tab-head-single');
 let activeTab = 1, allData;
 
+const apiBaseURL = 'http://127.0.0.1:5500/'
+
 const init = () => {
     showActiveTabBody();
     showActiveTabHead();
